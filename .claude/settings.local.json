@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pandas; print\\('pandas', pandas.__version__\\)\")",
+      "Bash(python leer_csv.py)",
+      "Bash(python *)",
+      "Bash(./LeerCSV.exe)",
+      "Bash(start /B PrediccionDQO.exe)",
+      "Bash(tasklist)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Stop-Process *)",
+      "Bash(xxd Ecuacion.txt)"
+    ]
+  }
+}
